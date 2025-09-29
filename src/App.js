@@ -44,7 +44,7 @@ const getMovieDuration = (min) => {
 
 function getMovieImage(movie) {
   if (movie.image) return movie.image;
-  return "/public/img/CineCDN.png"; 
+  return "/public/img/CineCDN.png";
 }
 
 function countdownRelease(fechaEstreno) {
@@ -83,10 +83,10 @@ function Navbar() {
         <div className="row w-100 align-items-center text-center">
           <div className="col-4 text-start">
             <ul className="navbar-nav d-flex flex-row">
-              <li className="nav-item mx-2"><a className="nav-link active" href="#">Películas</a></li>
-              <li className="nav-item mx-2"><a className="nav-link" href="#">Alimentos</a></li>
-              <li className="nav-item mx-2"><a className="nav-link" href="#">Promos</a></li>
-              <li className="nav-item mx-2"><a className="nav-link" href="#">Especiales</a></li>
+              <li className="nav-item mx-2"><a className="nav-link active" href="/">Películas</a></li>
+              <li className="nav-item mx-2"><a className="nav-link" href="/">Alimentos</a></li>
+              <li className="nav-item mx-2"><a className="nav-link" href="/">Promos</a></li>
+              <li className="nav-item mx-2"><a className="nav-link" href="/">Especiales</a></li>
             </ul>
           </div>
           <div className="col-4">
