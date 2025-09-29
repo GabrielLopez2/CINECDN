@@ -90,12 +90,12 @@ function Navbar() {
             </ul>
           </div>
           <div className="col-4">
-            <a className="navbar-brand fw-bold text-warning" href="#">
+            <a className="navbar-brand fw-bold text-warning" href="/">
               Cine CDN
             </a>
           </div>
           <div className="col-4 text-end">
-            <a href="#" className="text-white fs-4">
+            <a href="/" className="text-white fs-4">
               <i className="bi bi-person-circle"></i>
             </a>
           </div>
